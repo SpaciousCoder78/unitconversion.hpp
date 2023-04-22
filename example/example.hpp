@@ -1,6 +1,6 @@
 //This is an example of how a header file in this repository needs to be written
 //the file should start with these 2 ifndef and define statements and end with endif statements
-//file should be saved as unitname.h. Unit name needs to be plural
+//file should be saved as unitname.hpp. Unit name needs to be plural
 #ifndef EXAMPLE_H
 #define EXAMPLE_H
 
