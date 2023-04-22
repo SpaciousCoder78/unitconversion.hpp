@@ -1,39 +1,39 @@
-#ifndef METERS_H
-#define METERS_h
+#ifndef MILES_H
+#define MILES_H
 // DECLARATION OF FUNCTIONS FOR CONVERSIONS
-double meters_to_kilometers(double meters);
-double meters_to_centimeters(double meters);
-double meters_to_millimeters(double meters);
-double meters_to_miles(double meters);
-double meters_to_yards(double meters);
-double meters_to_feet(double meters);
-double meters_to_inches(double meters);
-// DECLARATION OF FUNCTION FOR CONVERSION OF METERS TO KILOMETERS
-double meters_to_kilometers(double meters) {
-    return meters / 1000;
+double miles_to_kilometers(double miles);
+double miles_to_meters(double miles);
+double miles_to_centimeters(double miles);
+double miles_to_millimeters(double miles);
+double miles_to_yards(double miles);
+double miles_to_feet(double miles);
+double miles_to_inches(double miles);
+// DEFINED FUNCTION FOR CONVERSION OF MILES TO KILOMETERS
+double miles_to_kilometers(double miles) {
+    return miles * 1.609;
 }
-// DECLARATION OF FUNCTION FOR CONVERSION OF METERS TO CENTIMETERS
-double meters_to_centimeters(double meters) {
-    return meters * 100;
+// DEFINED FUNCTION FOR CONVERSION OF MILES TO METERS
+double miles_to_meters(double miles) {
+    return miles * 1609.34;
 }
-// DECLARATION OF FUNCTION FOR CONVERSION OF METERS TO MILLIMETERS
-double meters_to_millimeters(double meters) {
-    return meters * 1000;
+// DEFINED FUNCTION FOR CONVERSION OF MILES TO CENTIMETERS
+double miles_to_centimeters(double miles) {
+    return miles * 160934;
 }
-// DECLARATION OF FUNCTION FOR CONVERSION OF METERS TO MILES
-double meters_to_miles(double meters) {
-    return meters / 1609;
+// DEFINED FUNCTION FOR CONVERSION OF MILES TO MILLIMETERS
+double miles_to_millimeters(double miles) {
+    return miles * 1609344;
 }
-// DECLARATION OF FUNCTION FOR CONVERSION OF METERS TO YARDS
-double meters_to_yards(double meters) {
-    return meters * 1.09361;
+// DEFINED FUNCTION FOR CONVERSION OF MILES TO YARDS
+double miles_to_yards(double miles) {
+    return miles * 1760;
 }
-// DECLARATION OF FUNCTION FOR CONVERSION OF METERS TO FEET
-double meters_to_feet(double meters) {
-    return meters * 3.28084;
+// DEFINED FUNCTION FOR CONVERSION OF MILES TO FEET
+double miles_to_feet(double miles) {
+    return miles * 5280;
 }
-// DECLARATION OF FUNCTION FOR CONVERSION OF METERS TO INCHES
-double meters_to_inches(double meters) {
-    return meters * 39.3701;
+// DEFINED FUNCTION FOR CONVERSION OF MILES TO INCHES
+double miles_to_inches(double miles) {
+    return miles * 63360;
 }
 #endif
