@@ -1,7 +1,7 @@
-# unitconversion.h
-A C/C++ library containing predefined unit conversion formulas to make your life easier.
+# unitconversion.hpp
+A C++ library containing predefined unit conversion formulas to make your life easier.
 
-The library is compatible with both C and C++
+The library is compatible  C++
 
 For any sort of help or discussions, use the discussions tab of this repository
 
@@ -18,7 +18,7 @@ Contributions are welcome.
 
 # How to use
 - Download the source code from this repository.
-- Copy the include folder and paste it in a folder containing your C/C++ source file.
+- Copy the include folder and paste it in a folder containing your C++ source file.
 - Include the header file that you want in the beginning of your program.
 For example: If you want to include metres.h, you can do it like this:
 ![image](https://user-images.githubusercontent.com/88923986/233766447-13e749cf-07ab-472a-9d77-0c9b0fc029d3.png)
@@ -28,7 +28,7 @@ Example: ![image](https://user-images.githubusercontent.com/88923986/233766776-0
 
 
 # Contribution Guidelines
-- The header file name must start with the unit name in plural and end with .h extension (eg. metres.h)
+- The header file name must start with the unit name in plural and end with .hpp extension (eg. metres.hpp)
 - The header file must contain ifndef, define and endif statements. The functions should be written between the define and endif statements.
 - Function name should be in the format of unitname_to_unitname.
  
