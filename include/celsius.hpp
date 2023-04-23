@@ -1,5 +1,5 @@
-#ifndef CELSIUS_H
-#define CELSIUS_H
+#ifndef CELSIUS_HPP
+#define CELSIUS_HPP
 // DECLARATION OF FUNCTIONS FOR CONVERSIONS
 double celsius_to_fahrenheit(double celsius);
 double celsius_to_kelvin(double celsius);
@@ -11,4 +11,4 @@ double celsius_to_fahrenheit(double celsius) {
 double celsius_to_kelvin(double celsius) {
     return celsius + 273.15;
 }
-#endif
+#endif 
