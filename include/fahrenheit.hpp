@@ -1,5 +1,5 @@
-#ifndef FAHRENHEIT_H
-#define FAHRENHEIT_H
+#ifndef FAHRENHEIT_HPP
+#define FAHRENHEIT_HPP
 // DECLARATION OF FUNCTIONS FOR CONVERSIONS
 double fahrenheit_to_celsius(double fahrenheit);
 double fahrenheit_to_kelvin(double fahrenheit);
