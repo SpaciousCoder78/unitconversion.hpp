@@ -35,7 +35,7 @@ double bars_to_mmhg(double bars) {
     return bars * 750.062;
 }
 // DEFINED FUNCTION FOR CONVERSION OF BARS TO INCHES OF MERCURY
-double bars_to_incesh_of_hg(double bars) {
+double bars_to_inches_of_hg(double bars) {
     return bars * 29.53;
 }
 #endif
