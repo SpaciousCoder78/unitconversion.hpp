@@ -24,7 +24,7 @@ double bars_to_atm(double bars) {
 }
 // DEFINED FUNCTION FOR CONVERSION OF BARS TO TORRS
 double bars_to_torrs(double bars) {
-    return bars *750.062;
+    return bars * 750.062;
 }
 // DEFINED FUNCTION FOR CONVERSION OF BARS TO POUNDS PER SQUARE INCH
 double bars_to_ppsi(double bars) {
